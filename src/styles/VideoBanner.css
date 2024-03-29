@@ -1,0 +1,19 @@
+.video-card {
+    display:flex;
+    max-height: 70%;
+    margin: 20px;
+    justify-content: center;
+    margin: 100px;
+}
+
+.video-card video {
+    width: 60%;
+    height: 60vh;
+    object-fit: cover;
+    /* border-radius:5%; */
+}  
+
+.video_text{
+    display: flex;
+    justify-content: center;
+}
