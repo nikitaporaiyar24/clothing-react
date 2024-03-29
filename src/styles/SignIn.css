@@ -1,0 +1,118 @@
+.outer-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.signin{    
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    margin-right: 508px;
+    margin-bottom: 40px;
+    margin-top: 48px;
+
+    width: 120px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.emaildes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.email{    
+    width: 67px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+} 
+
+#emailbox{    
+    width: 620px;
+    height: 42px;
+    background: #d9d9d9;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.passdes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 7px;
+}
+
+.password{    
+    width: 110px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#passwordbox{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 620px;
+    height: 42px;
+    background: #d9d9d9;
+}
+
+.remme{
+    margin-right: 453px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#checkbox{  
+    margin-right: 9px;
+    width: 20px;
+    height: 20px;
+    background: #d9d9d9;
+    border-radius: 7px;
+}
+
+.rem{    
+    width: 139px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+#sign {
+    
+    width: 179px;
+    height: 42px;
+    background: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
