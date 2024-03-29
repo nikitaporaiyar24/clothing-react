@@ -1,0 +1,18 @@
+.icons{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons > img{
+    margin:20px;
+}
+
+.navbar{
+    height: 11vh;
+}
+
+.category-btn > button{
+    margin:20px;
+}
