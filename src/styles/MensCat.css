@@ -1,0 +1,29 @@
+.container1{
+    display: flex;
+    
+}
+
+/* .image{
+    height: 50%;
+} */
+
+.col{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding: 5px;
+
+    margin-left: 10px;
+}
+
+.CardContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+}
+
+.CardContainer > div{
+    margin:25px;
+}
+
+
