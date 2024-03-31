@@ -18,13 +18,13 @@ export default function Cat(){
                 <br/>
                 <div className='main-cat'>
                     <div className='image1 '>
-                        <img src={img1} class="img-thumbnail" alt="Hoodie"/>
-                        <img src={img2} class="img-thumbnail" alt="Long sleeves"/>
+                        <img src={img1} className="img-thumbnail" alt="Hoodie"/>
+                        <img src={img2} className="img-thumbnail" alt="Long sleeves"/>
                     </div>
                     <br/>
                     <div className='image2'>
-                        <img src={img3} class="img-thumbnail" alt="Regular tees"/>
-                        <img src={img4} class="img-thumbnail" alt="Over sized t-shirt"/>
+                        <img src={img3} className="img-thumbnail" alt="Regular tees"/>
+                        <img src={img4} className="img-thumbnail" alt="Over sized t-shirt"/>
                     </div>
                 </div>
             </div>

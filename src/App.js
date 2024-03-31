@@ -1,10 +1,14 @@
 import './App.css';
 import LandingPage from './pages/LandingPage';
 import SignInPage from './pages/SignInPage';
-import MensPage from './pages/MensPage';
-import WomensPage from './pages/WomensPage';
+import CartPage from './pages/CartPage';
 import ProductListingPage from './pages/ProductListingPage';
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
+import WishlistPage from './pages/WishlistPage';
+import MensPage from './pages/MensPage';
+
+
+
 
 function App() {
   return (
@@ -20,6 +24,8 @@ function App() {
             <Route path='/hoodies' element={<ProductListingPage category='Hoodies' />}></Route>
             <Route path='/shirts' element={<ProductListingPage category='Shirts' />}></Route>
             <Route path='/tshirts' element={<ProductListingPage category='T-shirts' />}></Route>
+            <Route path='/cart' element={<CartPage />}></Route>
+            <Route path='/wishlist' element={<WishlistPage />}></Route>
 
           </Routes>
         

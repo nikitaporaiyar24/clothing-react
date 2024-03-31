@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item-image{
+    width: 200px;
+    width: 150px;
+}
+.item-image img{
+    width: 100%;
+}
+.item-details{
+    margin-left: 40px;
+}
+.wish_and_quantity{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.fa-solid{
+    margin-left: 10px;
+}
+
+#shopping-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+/* Payment side */

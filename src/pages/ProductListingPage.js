@@ -10,7 +10,7 @@ export default function ProductListingPage(props) {
     <div>
       <Navbar />
       
-      <h1>{props.category}</h1>
+      <center><h1>{props.category}</h1></center>
 
       <div className='CardContainer'>
         <Card />

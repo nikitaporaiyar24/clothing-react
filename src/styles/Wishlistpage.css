@@ -1,0 +1,10 @@
+.product-card-collection{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+
+.product-card-collection > div{
+    margin:25px;
+}

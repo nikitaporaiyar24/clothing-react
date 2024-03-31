@@ -2,6 +2,7 @@ import React from 'react'
 import men_p1 from '../assets/men_p1.png'
 
 
+
 export default function Card(props) {
   return (
       <div className='container1'>
@@ -16,6 +17,6 @@ export default function Card(props) {
                     </div>
                     
                 </div>
-    </div>
-  )
+        </div>
+  );
 }

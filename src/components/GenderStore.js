@@ -11,19 +11,19 @@ export default function GenderStore() {
         <div className='gender_store'>   
             <div className='mens'>
                 <div className='image'>
-                    <img src={menmodle} class="img-thumbnail" alt="menmodle"/>
+                    <img src={menmodle} className="img-thumbnail" alt="menmodle"/>
                     
                 </div>
                 <div>
-                <center><button type="button" class="btn-gender">Shop Mens</button></center>
+                <center><button type="button" className="btn-gender">Shop Mens</button></center>
                 </div>
             </div>
             <div className='womens'>
                 <div className='image'>
-                    <img src={womenmodel} class="img-thumbnail" alt="womenmodel"/>
+                    <img src={womenmodel} className="img-thumbnail" alt="womenmodel"/>
                 </div>
                 <div>
-                    <center><button type="button" class="btn-gender">Shop Womens</button></center>
+                    <center><button type="button" className="btn-gender">Shop Womens</button></center>
                 </div>
             </div>
         </div>

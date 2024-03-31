@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.payment_div {
+    width: 481px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    background: #FAF9F8;
+
+
+}
+
+.discount_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 414px;
+    height: 46px;
+}
+
+.login_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.login_div button {
+    width: 380px;
+    height: 51px;
+    text-align: center;
+}
+
+.order_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.order_div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkout_div {
+    width: 392px;
+    height: 53px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.checkout_div p {
+    width: 239px;
+    height: 23px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.payment_opt_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 105px;
+    width: 374px;
+    height: 74px;
+}
+
+.payment_heading_div p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 590;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+.payment_icons_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.order_div hr {
+    width: 389px;
+    height: 0px;
+    top: 170px;
+
+    border: 1px solid #000000;
+}
+
+#cod-icon {
+    width: 40px;
+    height: 40px;
+}
+
+#rupay-icon {
+    width: 60.61px;
+    height: 38px;
+
+}
+
+#visa-icon {
+    width: 37.67px;
+    height: 30px;
+}
+
+#gpay-icon {
+    width: 38px;
+    height: 38px;
+}
+
+#razor-icon {
+    width: 69px;
+    height: 15.09px;
+}
+
+#master-icon {
+    width: 38px;
+    height: 23.75px;
+}
+
+@media(max-width:600px) {
+    .payment_div {
+        width: 100%;
+    }
+
+    .discount_div {
+        width: 320px;
+    }
+
+    .login_div button {
+        width: 310px;
+    }
+
+    .checkout_div {
+        width: 310px;
+    }
+
+    .payment_opt_div {
+        width: 314px;
+        height: 45px;
+    }
+
+    .order_div hr {
+        width: 18rem;
+    }
+}
